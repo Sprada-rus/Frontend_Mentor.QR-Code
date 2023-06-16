@@ -34,7 +34,7 @@ body {
 }
 
 .card {
-    max-width: 360px;
+    max-width: 300px;
     padding: 1rem 1rem 2rem 1rem;
     border-radius: 1rem;
     background-color: var(--white);
@@ -54,16 +54,15 @@ body {
 }
 
 .card__desc {
-    padding: 0 1.5rem;
+    padding: 0 1.1rem;
 }
 
 .card__desc  p {
     color: var(--grayish-blue);
+    font-size: 0.9rem;
 }
 
-@media screen and (min-width: 1440px) {
-    .card__desc {
-        font-size: 1.2rem;
-        padding: 0 .8rem;
-    }
+.card__desc h2 {
+    color: var(--dark-blue);
+    font-size: 1.25rem;
 }
